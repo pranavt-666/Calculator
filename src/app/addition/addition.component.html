@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <h1 class="text-centre mt-5">Addition</h1>
+        <div class="mb-4 mt-4">
+            <input type="text" #num1 class="form-control" placeholder="Enter the number">
+        </div>
+        <div class="mb-4">
+            <input type="text" #num2 class="form-control" placeholder="Enter the number">
+        </div>
+        <div class="mb-4">
+            <button class="btn btn-info ms-2" (click)="addNumbers(num1, num2)">Add</button>
+        </div>
+        <div id="result_id" class="mb-4">
+            {{result}}
+        </div>
+    </div>
+    <div class="col-4"></div>
+</div>
+</div>

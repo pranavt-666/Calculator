@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <h1 class="text-centre">Subtraction</h1>
+            <div class="mb-4">
+                <input type="text" class="form-control" placeholder="Enter the number" [(ngModel)] = "num1" >
+            </div>
+            <div class="mb-4">
+                <input type="text" class="form-control" placeholder="Enter the number" [(ngModel)]="num2">
+            </div>
+            <div class="mb-4">
+                <button class="btn btn-info" (click)="calculate()" >Subtract</button>
+                <div>{{ans}}</div>
+            </div>
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
